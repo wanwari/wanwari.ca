@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const Portfolio = () => {
 	return (
 		<div>
-			<Header />
+			<Header active={"portfolio"} />
 			Portfolio
 		</div>
 	);

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const Contact = () => {
 	return (
 		<div>
-			<Header />
+			<Header active={"contact"} />
 			Contact
 		</div>
 	);

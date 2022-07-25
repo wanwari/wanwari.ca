@@ -1,7 +1,11 @@
 import Header from "../components/Header";
 
 const Home = () => {
-	return <Header />;
+	return (
+		<div className="h-screen bg-bgOrange">
+			<Header active={"home"} />
+		</div>
+	);
 };
 
 export default Home;

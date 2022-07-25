@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const NotFound = () => {
 	return (
 		<div>
-			<Header />
+			<Header active={""} />
 			404! Not Found
 		</div>
 	);
