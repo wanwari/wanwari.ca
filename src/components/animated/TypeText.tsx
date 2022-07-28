@@ -19,7 +19,7 @@ const TypeText = () => {
 		}, delay);
 	}, [typeText, text, delay]);
 
-	return <div className="text-3xl">{textBar}</div>;
+	return <div className="text-3xl h-1">{textBar}</div>;
 };
 
 export default TypeText;

@@ -7,11 +7,13 @@ interface HeaderProps {
 const Header = ({ active }: HeaderProps) => {
 	return (
 		<div className="flex justify-between">
-			<div className="p-6">Logo</div>
-			<div className="p-6">
+			<div className="p-6 text-2xl font-bold">
+				<Link to="/">WA</Link>
+			</div>
+			<div className="p-6 text-lg">
 				<Link
 					to="/"
-					className={`pl-4 ${
+					className={`mx-2 hover:text-white ${
 						active === "home" ? "font-bold underline" : ""
 					}`}
 				>
@@ -19,7 +21,7 @@ const Header = ({ active }: HeaderProps) => {
 				</Link>
 				<Link
 					to="/portfolio"
-					className={`pl-4 ${
+					className={`mx-2 hover:text-white ${
 						active === "portfolio" ? "font-bold underline" : ""
 					}`}
 				>
@@ -27,7 +29,7 @@ const Header = ({ active }: HeaderProps) => {
 				</Link>
 				<Link
 					to="/contact"
-					className={`pl-4 ${
+					className={`mx-2 hover:text-white ${
 						active === "contact" ? "font-bold underline" : ""
 					}`}
 				>

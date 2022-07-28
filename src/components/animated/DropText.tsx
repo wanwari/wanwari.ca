@@ -8,8 +8,8 @@ const DropText = () => {
 
 	return (
 		<div>
-			<animated.div style={animationProps} className="text-8xl">
-				Hi, I'm <span className="font-bold">Wiesa</span>
+			<animated.div style={animationProps} className="text-8xl mb-4">
+				Hi! I'm <span className="font-bold">Wiesa</span>
 			</animated.div>
 		</div>
 	);
