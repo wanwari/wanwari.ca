@@ -5,9 +5,10 @@ const Footer = () => {
 	return (
 		<div className="flex flex-row justify-end p-6">
 			<div>
-				<IconContext.Provider value={{ color: "#FE343B" }}>
-					Developed with <FaHeart className="inline" /> by Wiesa
-					Anwari
+				<IconContext.Provider value={{ color: "#fff" }}>
+					<span className="pr-2">Developed with</span>
+					<FaHeart className="inline" />
+					<span className="pl-2">by Wiesa Anwari</span>
 				</IconContext.Provider>
 			</div>
 		</div>
