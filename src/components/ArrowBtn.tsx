@@ -1,4 +1,4 @@
-import { BsArrowUp, BsArrowDown } from "react-icons/bs";
+import { HiArrowUp, HiArrowDown } from "react-icons/hi";
 import { useSpring, animated } from "react-spring";
 
 interface ArrowProps {
@@ -19,16 +19,16 @@ const ArrowBtn = ({ direction }: ArrowProps) => {
 
 	switch (direction) {
 		case "up":
-			arrowDirection = <BsArrowUp />;
+			arrowDirection = <HiArrowUp />;
 			break;
 		case "down":
-			arrowDirection = <BsArrowDown />;
+			arrowDirection = <HiArrowDown />;
 			break;
 	}
 	return (
 		<div>
-			<animated.div style={animationProps} className="text-5xl">
-				{arrowDirection}
+			<animated.div style={animationProps} className="text-5xl mt-8">
+				<button>{arrowDirection}</button>
 			</animated.div>
 		</div>
 	);
