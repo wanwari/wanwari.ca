@@ -4,10 +4,10 @@ import Header from "../components/Header";
 
 const Portfolio = () => {
 	return (
-		<div className="h-screen bg-bgGreen flex flex-col justify-between">
+		<div className="bg-bgGreen flex flex-col justify-between">
 			<Header active={"portfolio"} />
 
-			<div className="grid grid-cols-3 m-12 pt-4 justify-items-center overflow-auto">
+			<div className="grid grid-cols-3 m-12 pt-4 justify-items-center">
 				<Card
 					title={"Title"}
 					about={
@@ -16,12 +16,6 @@ const Portfolio = () => {
 					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS, HTML"}
 					codeUrl={"Title"}
 					demoUrl={"Title"}
-				/>
-				<Card
-					title={"Title"}
-					about={"dncus pharetra."}
-					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS, HTML"}
-					codeUrl={"Title"}
 				/>
 				<Card
 					title={"Title"}
