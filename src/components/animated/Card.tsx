@@ -37,14 +37,14 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 				<div className="flex justify-center">
 					<a
 						href={codeUrl}
-						className="bg-green-400 p-3 rounded-xl hover:text-white hover:shadow-lg m-2"
+						className="bg-green-400 m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
 					>
 						View Code
 					</a>
 					{demoUrl && (
 						<a
 							href={demoUrl}
-							className="bg-green-400 p-3 rounded-xl hover:text-white hover:shadow-lg m-2"
+							className="bg-green-400 m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
 						>
 							Visit Project
 						</a>
