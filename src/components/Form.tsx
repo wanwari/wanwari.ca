@@ -1,6 +1,7 @@
 const Form = () => {
 	return (
-		<div className="flex flex-col justify-center text-center w-1/4 rounded-xl border-2 p-8 bg-sky-400 shadow-xl">
+		//<div className="flex flex-col justify-center text-center rounded-xl border-2 p-8 bg-sky-400 shadow-xl">
+		<div className="flex flex-col justify-center text-center md:rounded-xl md:border-2 md:p-8 md:bg-sky-400 md:shadow-xl">
 			<div>
 				<p className="text-white font-bold text-xl mb-8">
 					Feel free to use this form to get in touch
