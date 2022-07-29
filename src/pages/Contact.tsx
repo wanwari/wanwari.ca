@@ -1,10 +1,15 @@
 import Header from "../components/Header";
+import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 const Contact = () => {
 	return (
-		<div>
+		<div className="h-screen bg-bgBlue flex flex-col justify-between">
 			<Header active={"contact"} />
-			Contact
+			<div className="flex justify-center">
+				<Form />
+			</div>
+			<Footer />
 		</div>
 	);
 };
