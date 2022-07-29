@@ -19,7 +19,11 @@ const TypeText = () => {
 		}, delay);
 	}, [typeText, text, delay]);
 
-	return <div className="text-3xl h-1">{textBar}</div>;
+	return (
+		<div className="flex justify-center">
+			<div className="text-3xl h-1 mb-12 w-4/5 md:mb-2">{textBar}</div>
+		</div>
+	);
 };
 
 export default TypeText;
