@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Portfolio = () => {
+	useEffect(() => {
+		document.title = "Portfolio - wanwari";
+	}, []);
+
 	return (
 		<div className="bg-bgGreen h-screen flex flex-col justify-between overflow-auto">
 			<Header active={"portfolio"} />

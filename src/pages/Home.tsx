@@ -3,8 +3,13 @@ import DropText from "../components/DropText";
 import TypeText from "../components/TypeText";
 import ArrowBtn from "../components/ArrowBtn";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
 
 const Home = () => {
+	useEffect(() => {
+		document.title = "Home - wanwari";
+	}, []);
+
 	return (
 		<div className="h-screen bg-bgOrange flex flex-col justify-between">
 			<Header active={"home"} />
