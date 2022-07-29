@@ -27,9 +27,9 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 						alt="logo"
 					/>
 				</div>
-				<div className="flex justify-center flex-col text-center mb-4">
-					<h1 className="font-bold text-3xl mt-6">{title}</h1>
-					<p className="text-slate-500 uppercase">{tags}</p>
+				<div className="flex justify-center flex-col text-center mb-2">
+					<h1 className="font-bold text-3xl mt-6 mb-2">{title}</h1>
+					<p className="text-slate-500">{tags}</p>
 				</div>
 				<div className="flex justify-center p-2 border-t border-slate-300">
 					<p>{about}</p>
@@ -37,6 +37,8 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 				<div className="flex justify-center">
 					<a
 						href={codeUrl}
+						rel="noreferrer"
+						target="_blank"
 						className="bg-green-400 m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
 					>
 						View Code
@@ -44,6 +46,8 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 					{demoUrl && (
 						<a
 							href={demoUrl}
+							rel="noreferrer"
+							target="_blank"
 							className="bg-green-400 m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
 						>
 							Visit Project
