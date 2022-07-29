@@ -7,10 +7,10 @@ interface HeaderProps {
 const DesktopHeader = ({ active }: HeaderProps) => {
 	return (
 		<div className="flex justify-between">
-			<div className="p-6 text-4xl font-bold">
+			<div className="p-6 text-2xl font-bold">
 				<Link to="/">WA</Link>
 			</div>
-			<div className="p-6 text-2xl">
+			<div className="p-6 text-xl">
 				<Link
 					to="/"
 					className={`mx-2 hover:text-white ${
