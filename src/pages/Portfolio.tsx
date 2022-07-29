@@ -9,44 +9,64 @@ const Portfolio = () => {
 
 			<div className="grid grid-cols-3 m-12 pt-4 justify-items-center">
 				<Card
+					delay={1050}
+					title={"Spelling Bee"}
+					about={"about"}
+					tags={"JavaScript, ReactJS, TailwindCSS, NodeJS, ExpressJS"}
+					codeUrl={"https://github.com/wanwari/spelling-bee"}
+					demoUrl={"https://spelling-bzz.netlify.app/"}
+				/>
+				<Card
+					delay={900}
+					title={"Image Manipulate API"}
+					about={"about"}
+					tags={"JavaScript, TypeScript, NodeJS, ExpressJS"}
+					codeUrl={"https://github.com/wanwari/image-manipulate-api"}
+				/>
+				<Card
+					delay={750}
+					title={"Screen Capture"}
+					about={"about"}
+					tags={"Java"}
+					codeUrl={"https://github.com/wanwari/screen-capture"}
+				/>
+				<Card
 					delay={600}
-					title={"Title"}
-					about={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat nisl ex, vel tincidunt mi ullamcorper nec. Suspendisse scelerisque eu nulla a lacinia. Nam interdum est velit, id gravida tortor finibus ornare. Integer sit amet ligula nec quam tempus lacinia. Donec scelerisque arcu nec sapien rhoncus pharetra."
-					}
-					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS, HTML"}
-					codeUrl={"Title"}
-					demoUrl={"Title"}
+					title={"wanwari.ca"}
+					about={"about"}
+					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS"}
+					codeUrl={"https://github.com/wanwari/wanwari.ca"}
+					demoUrl={"https://wanwari.ca/"}
 				/>
 				<Card
-					delay={400}
-					title={"Title"}
-					about={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat nisl ex, vel tincidunt mi ullamcorper nec. Suspendisse scelerisque eu nulla a lacinia. Nam interdum est velit, id gravida tortor finibus ornare. Integer sit amet ligula nec quam tempus lacinia. Donec scelerisque arcu nec sapien rhoncus pharetra."
-					}
-					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS, HTML"}
-					codeUrl={"Title"}
-					demoUrl={"Title"}
+					delay={450}
+					title={"Blended not Stirred"}
+					about={"about"}
+					tags={"JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB"}
+					codeUrl={"https://github.com/wanwari/blended-not-stirred"}
 				/>
 				<Card
-					delay={200}
-					title={"Title"}
-					about={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat nisl ex, vel tincidunt mi ullamcorper nec. Suspendisse scelerisque eu nulla a lacinia. Nam interdum est velit, id gravida tortor finibus ornare. Integer sit amet ligula nec quam tempus lacinia. Donec scelerisque arcu nec sapien rhoncus pharetra."
-					}
-					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS, HTML"}
-					codeUrl={"Title"}
-					demoUrl={"Title"}
+					delay={300}
+					title={"Weather App"}
+					about={"about"}
+					tags={"JavaScript, ReactJS"}
+					codeUrl={"https://github.com/wanwari/weather-app"}
+					demoUrl={"https://weather-app-wanwari.netlify.app/"}
+				/>
+				<Card
+					delay={150}
+					title={"wanwari.ca (old)"}
+					about={"about"}
+					tags={"JavaScript, ReactJS, TailwindCSS"}
+					codeUrl={"https://github.com/wanwari/wanwari-OLD"}
 				/>
 				<Card
 					delay={0}
-					title={"Title"}
-					about={
-						"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat nisl ex, vel tincidunt mi ullamcorper nec. Suspendisse scelerisque eu nulla a lacinia. Nam interdum est velit, id gravida tortor finibus ornare. Integer sit amet ligula nec quam tempus lacinia. Donec scelerisque arcu nec sapien rhoncus pharetra."
-					}
-					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS, HTML"}
-					codeUrl={"Title"}
-					demoUrl={"Title"}
+					title={"To-Do List"}
+					about={"about"}
+					tags={"JavaScript, ReactJS"}
+					codeUrl={"https://github.com/wanwari/react-to-do"}
+					demoUrl={"https://to-do-wanwari.netlify.app/"}
 				/>
 			</div>
 			<Footer />
