@@ -1,5 +1,5 @@
 import { useSpring, animated } from "react-spring";
-import logo from "../../img/logo.jpg";
+import logo from "../img/logo.jpg";
 
 interface CardProps {
 	delay: number;

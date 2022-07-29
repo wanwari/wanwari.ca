@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-import DropText from "../components/animated/DropText";
-import TypeText from "../components/animated/TypeText";
+import DropText from "../components/DropText";
+import TypeText from "../components/TypeText";
 import ArrowBtn from "../components/ArrowBtn";
 import Footer from "../components/Footer";
 
