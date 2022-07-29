@@ -19,11 +19,11 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 
 	return (
 		<animated.div style={cardAnimation}>
-			<div className="flex flex-col justify-end  border rounded-xl h-fit p-4 m-4 mb-8 bg-white shadow-xl">
+			<div className="flex flex-col justify-end w-80 md:w-fit border rounded-xl p-4 m-4 mb-8 bg-white shadow-xl">
 				<div className="flex justify-center">
 					<img
 						src={logo}
-						className="w-1/5 rounded-full -mt-10"
+						className="w-2/5 md:w-1/5 rounded-full -mt-10"
 						alt="logo"
 					/>
 				</div>
@@ -39,7 +39,7 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 						href={codeUrl}
 						rel="noreferrer"
 						target="_blank"
-						className="bg-yellow m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
+						className="bg-yellow m-1 px-4 py-2 self-center rounded-xl text-center hover:text-white hover:shadow-md"
 					>
 						View Code
 					</a>
@@ -48,7 +48,7 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 							href={demoUrl}
 							rel="noreferrer"
 							target="_blank"
-							className="bg-yellow m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
+							className="bg-yellow m-1 px-4 py-2 self-center text-center rounded-xl hover:text-white hover:shadow-md"
 						>
 							Visit Project
 						</a>

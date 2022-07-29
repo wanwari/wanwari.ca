@@ -7,10 +7,10 @@ const Portfolio = () => {
 		<div className="bg-bgGreen h-screen flex flex-col justify-between overflow-auto">
 			<Header active={"portfolio"} />
 
-			<div className="grid grid-cols-3 m-12 pt-4 justify-items-center">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-12 pt-4 justify-items-center">
 				<Card
 					delay={1050}
-					title={"Spelling Bee"}
+					title={"Spelling Bzz"}
 					about={"about"}
 					tags={"JavaScript, ReactJS, TailwindCSS, NodeJS, ExpressJS"}
 					codeUrl={"https://github.com/wanwari/spelling-bee"}
