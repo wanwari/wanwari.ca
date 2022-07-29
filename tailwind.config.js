@@ -8,6 +8,7 @@ module.exports = {
 				bgGreen: "#69DC9E",
 				bgBlue: "#44CCFF",
 				yellow: "#FFCE1F",
+				pink: "#EF8094",
 			},
 		},
 	},
