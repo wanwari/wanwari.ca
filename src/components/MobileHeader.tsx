@@ -14,11 +14,8 @@ const MobileHeader = ({ active }: Props) => {
 			<div className="p-6 text-4xl font-bold">
 				<Link to="/">WA</Link>
 			</div>
-			<div
-				onClick={() => setDisplayMenu(!displayMenu)}
-				className=" absolute top-0 right-0 p-4"
-			>
-				<RiMenu5Line className="text-5xl hover:text-white hover:cursor-pointer" />
+			<div onClick={() => setDisplayMenu(!displayMenu)} className="p-4">
+				<RiMenu5Line className="text-5xl hover:cursor-pointer" />
 			</div>
 
 			{displayMenu && (
@@ -26,7 +23,7 @@ const MobileHeader = ({ active }: Props) => {
 					<div className="flex flex-col p-4 text-center mt-48 text-4xl">
 						<Link
 							to="/"
-							className={`m-4 hover:text-white ${
+							className={`m-4 ${
 								active === "home" ? "font-bold underline" : ""
 							}`}
 						>
@@ -34,7 +31,7 @@ const MobileHeader = ({ active }: Props) => {
 						</Link>
 						<Link
 							to="/portfolio"
-							className={`m-4 hover:text-white ${
+							className={`m-4 ${
 								active === "portfolio"
 									? "font-bold underline"
 									: ""
@@ -44,7 +41,7 @@ const MobileHeader = ({ active }: Props) => {
 						</Link>
 						<Link
 							to="/contact"
-							className={`m-4 hover:text-white ${
+							className={`m-4 ${
 								active === "contact"
 									? "font-bold underline"
 									: ""
