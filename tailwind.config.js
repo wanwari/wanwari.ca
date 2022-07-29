@@ -7,6 +7,7 @@ module.exports = {
 				bgOrange: "#FCB07E",
 				bgGreen: "#69DC9E",
 				bgBlue: "#44CCFF",
+				yellow: "#FFCE1F",
 			},
 		},
 	},

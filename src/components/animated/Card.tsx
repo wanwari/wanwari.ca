@@ -39,7 +39,7 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 						href={codeUrl}
 						rel="noreferrer"
 						target="_blank"
-						className="bg-green-400 m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
+						className="bg-yellow m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
 					>
 						View Code
 					</a>
@@ -48,7 +48,7 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 							href={demoUrl}
 							rel="noreferrer"
 							target="_blank"
-							className="bg-green-400 m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
+							className="bg-yellow m-1 px-4 py-2 self-center rounded-xl hover:text-white hover:shadow-md"
 						>
 							Visit Project
 						</a>
