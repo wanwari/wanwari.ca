@@ -32,7 +32,7 @@ const Form = () => {
 					/>
 					<input
 						type="submit"
-						className="p-2 mt-8 font-bold w-full rounded-xl text-blue-500 bg-white hover:cursor-pointer hover:shadow-lg"
+						className="p-2 mt-8 font-bold w-full rounded-xl text-sky-500 bg-white hover:cursor-pointer hover:shadow-lg"
 						value="Submit"
 					/>
 				</form>
