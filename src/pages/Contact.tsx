@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
 	return (
-		<div className="h-screen bg-bgBlue flex flex-col justify-between">
+		<div className="h-screen bg-sky-300 flex flex-col justify-between">
 			<Header active={"contact"} />
 			<div className="flex justify-center">
 				<Form />

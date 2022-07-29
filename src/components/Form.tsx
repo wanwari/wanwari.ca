@@ -1,9 +1,9 @@
 const Form = () => {
 	return (
-		<div className="flex flex-col justify-center text-center w-1/4 rounded-md">
+		<div className="flex flex-col justify-center text-center w-1/4 rounded-xl border p-8 bg-sky-500 shadow-xl">
 			<div>
 				<p className="text-white font-bold text-xl mb-8">
-					Hi, feel free to use this form to get in contact with me
+					Feel free to use this form to get in touch
 				</p>
 			</div>
 			<div>
@@ -32,7 +32,7 @@ const Form = () => {
 					/>
 					<input
 						type="submit"
-						className="p-2 mt-8 font-bold w-full rounded-xl text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-400 hover:cursor-pointer hover:shadow-lg"
+						className="p-2 mt-8 font-bold w-full rounded-xl text-blue-500 bg-white hover:cursor-pointer hover:shadow-lg"
 						value="Submit"
 					/>
 				</form>
