@@ -1,16 +1,24 @@
 import { useSpring, animated } from "react-spring";
-import logo from "../img/logo.jpg";
 
 interface CardProps {
 	delay: number;
 	title: string;
 	about: string;
 	tags: string;
+	logo: string;
 	codeUrl: string;
 	demoUrl?: string;
 }
 
-const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
+const Card = ({
+	delay,
+	title,
+	about,
+	tags,
+	logo,
+	codeUrl,
+	demoUrl,
+}: CardProps) => {
 	const cardAnimation = useSpring({
 		from: { opacity: 0, marginTop: -300 },
 		to: { opacity: 1, marginTop: 0 },
@@ -23,7 +31,7 @@ const Card = ({ delay, title, about, tags, codeUrl, demoUrl }: CardProps) => {
 				<div className="flex justify-center">
 					<img
 						src={logo}
-						className="w-2/5 md:w-1/5 rounded-full -mt-10"
+						className="w-2/5 md:w-1/5 lg:w-1/6 p-2 bg-slate-300 shadow-xl rounded-full -mt-10"
 						alt="logo"
 					/>
 				</div>

@@ -2,6 +2,12 @@ import { useEffect } from "react";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import bee from "../img/bee.png";
+import bns from "../img/BnS.png";
+import im from "../img/IM.png";
+import sc from "../img/SC.png";
+import tdl from "../img/TDL.png";
+import wa from "../img/WA.png";
 
 const Portfolio = () => {
 	useEffect(() => {
@@ -18,6 +24,7 @@ const Portfolio = () => {
 					title={"Spelling Bzz"}
 					about={"about"}
 					tags={"JavaScript, ReactJS, TailwindCSS, NodeJS, ExpressJS"}
+					logo={bee}
 					codeUrl={"https://github.com/wanwari/spelling-bee"}
 					demoUrl={"https://spelling-bzz.netlify.app/"}
 				/>
@@ -26,6 +33,7 @@ const Portfolio = () => {
 					title={"Image Manipulate API"}
 					about={"about"}
 					tags={"JavaScript, TypeScript, NodeJS, ExpressJS"}
+					logo={im}
 					codeUrl={"https://github.com/wanwari/image-manipulate-api"}
 				/>
 				<Card
@@ -33,6 +41,7 @@ const Portfolio = () => {
 					title={"Screen Capture"}
 					about={"about"}
 					tags={"Java"}
+					logo={sc}
 					codeUrl={"https://github.com/wanwari/screen-capture"}
 				/>
 				<Card
@@ -40,6 +49,7 @@ const Portfolio = () => {
 					title={"wanwari.ca"}
 					about={"about"}
 					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS"}
+					logo={wa}
 					codeUrl={"https://github.com/wanwari/wanwari.ca"}
 					demoUrl={"https://wanwari.ca/"}
 				/>
@@ -48,6 +58,7 @@ const Portfolio = () => {
 					title={"Blended not Stirred"}
 					about={"about"}
 					tags={"JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB"}
+					logo={bns}
 					codeUrl={"https://github.com/wanwari/blended-not-stirred"}
 				/>
 				<Card
@@ -55,6 +66,7 @@ const Portfolio = () => {
 					title={"Weather App"}
 					about={"about"}
 					tags={"JavaScript, ReactJS"}
+					logo={wa}
 					codeUrl={"https://github.com/wanwari/weather-app"}
 					demoUrl={"https://weather-app-wanwari.netlify.app/"}
 				/>
@@ -63,6 +75,7 @@ const Portfolio = () => {
 					title={"wanwari.ca (old)"}
 					about={"about"}
 					tags={"JavaScript, ReactJS, TailwindCSS"}
+					logo={wa}
 					codeUrl={"https://github.com/wanwari/wanwari-OLD"}
 				/>
 				<Card
@@ -70,6 +83,7 @@ const Portfolio = () => {
 					title={"To-Do List"}
 					about={"about"}
 					tags={"JavaScript, ReactJS"}
+					logo={tdl}
 					codeUrl={"https://github.com/wanwari/react-to-do"}
 					demoUrl={"https://to-do-wanwari.netlify.app/"}
 				/>
