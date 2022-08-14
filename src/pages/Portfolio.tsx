@@ -22,7 +22,9 @@ const Portfolio = () => {
 				<Card
 					delay={1050}
 					title={"Spelling Bzz"}
-					about={"about"}
+					about={
+						"A spelling game that requires you to build as many words with each days letters."
+					}
 					tags={"JavaScript, ReactJS, TailwindCSS, NodeJS, ExpressJS"}
 					logo={bee}
 					codeUrl={"https://github.com/wanwari/spelling-bee"}
@@ -31,7 +33,9 @@ const Portfolio = () => {
 				<Card
 					delay={900}
 					title={"Image Manipulate API"}
-					about={"about"}
+					about={
+						"API that allows you to upload pictures and manipulate them how you'd like."
+					}
 					tags={"JavaScript, TypeScript, NodeJS, ExpressJS"}
 					logo={im}
 					codeUrl={"https://github.com/wanwari/image-manipulate-api"}
@@ -39,7 +43,9 @@ const Portfolio = () => {
 				<Card
 					delay={750}
 					title={"Screen Capture"}
-					about={"about"}
+					about={
+						"A program that lets you take and upload custom sized screenshots of your computer."
+					}
 					tags={"Java"}
 					logo={sc}
 					codeUrl={"https://github.com/wanwari/screen-capture"}
@@ -47,7 +53,7 @@ const Portfolio = () => {
 				<Card
 					delay={600}
 					title={"wanwari.ca"}
-					about={"about"}
+					about={"Personal portfolio website."}
 					tags={"JavaScript, TypeScript, ReactJS, TailwindCSS"}
 					logo={wa}
 					codeUrl={"https://github.com/wanwari/wanwari.ca"}
@@ -56,7 +62,7 @@ const Portfolio = () => {
 				<Card
 					delay={450}
 					title={"Blended not Stirred"}
-					about={"about"}
+					about={"Full-stack recipe website"}
 					tags={"JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB"}
 					logo={bns}
 					codeUrl={"https://github.com/wanwari/blended-not-stirred"}
@@ -64,7 +70,9 @@ const Portfolio = () => {
 				<Card
 					delay={300}
 					title={"Weather App"}
-					about={"about"}
+					about={
+						"Search the weather for anywhere in the world, includes history, maps, and more"
+					}
 					tags={"JavaScript, ReactJS"}
 					logo={wa}
 					codeUrl={"https://github.com/wanwari/weather-app"}
@@ -73,7 +81,7 @@ const Portfolio = () => {
 				<Card
 					delay={150}
 					title={"wanwari.ca (old)"}
-					about={"about"}
+					about={"Old personal portfolio webiste"}
 					tags={"JavaScript, ReactJS, TailwindCSS"}
 					logo={wa}
 					codeUrl={"https://github.com/wanwari/wanwari-OLD"}
@@ -81,7 +89,7 @@ const Portfolio = () => {
 				<Card
 					delay={0}
 					title={"To-Do List"}
-					about={"about"}
+					about={"Simple to-do list application"}
 					tags={"JavaScript, ReactJS"}
 					logo={tdl}
 					codeUrl={"https://github.com/wanwari/react-to-do"}
